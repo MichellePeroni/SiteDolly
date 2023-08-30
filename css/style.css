@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu_navegacao{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(222,234,185);
+    align-items: center;
+    font-family: Rubik;
+}
+ul, li{
+    display: inline-block;
+    margin-left: 24px;
+    cursor: pointer;
+}
+.img_logo{
+width: 96px;
+height: 96px;
+}
+.conteudo_principal{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+h1, h2, h3{
+    font-family: Rubik;
+}
+h2{
+    font-weight: 300;
+}
+h3{
+    background-color: #006633;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 8px 0 8px;
+    color: aliceblue;
+}
+.meuSegundoH2{
+    color: #4FA7B0;
+    display: flex;
+    justify-content: center;
+}
+.Video{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+.Redes_Sociais {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin: auto;
+}
+
+.menu_Final{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0,102,51);
+    align-items: center;
+    font-family: Rubik;   
+}
